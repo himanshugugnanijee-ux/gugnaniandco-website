@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" role="img" aria-label="Cloud accounting dashboard on laptop and mobile phone">
+<rect width="520" height="400" rx="20" fill="#eef7f1"/>
+<g transform="translate(205 30)" fill="#fff" stroke="#9fc7ae" stroke-width="3"><path d="M30 70 a30 30 0 0 1 8-58 a40 40 0 0 1 74 6 a28 28 0 0 1 6 52z"/></g>
+<text x="265" y="88" text-anchor="middle" font-family="Arial" font-size="15" font-weight="700" fill="#0b3d6e">CLOUD</text>
+<g stroke="#9fc7ae" stroke-width="3" stroke-dasharray="6 6" fill="none"><path d="M240 104 L200 160"/><path d="M300 104 L400 190"/></g>
+<g transform="translate(40 150)"><rect width="300" height="185" rx="12" fill="#0a2540"/><rect x="12" y="12" width="276" height="161" rx="6" fill="#fff"/><rect x="12" y="12" width="276" height="24" rx="6" fill="#0b3d6e"/><text x="24" y="29" font-family="Arial" font-size="12" font-weight="700" fill="#fff">Books Dashboard</text>
+<g font-family="Arial" font-size="10" fill="#5b6574"><text x="24" y="56">Sales</text><text x="110" y="56">Expenses</text><text x="200" y="56">GST Payable</text></g>
+<g font-family="Arial" font-size="15" font-weight="700"><text x="24" y="74" fill="#0f9d58">₹8.2L</text><text x="110" y="74" fill="#d9534f">₹5.1L</text><text x="200" y="74" fill="#0b3d6e">₹42K</text></g>
+<g><rect x="30" y="130" width="22" height="30" fill="#0b3d6e"/><rect x="62" y="115" width="22" height="45" fill="#0b3d6e"/><rect x="94" y="100" width="22" height="60" fill="#f2a900"/><rect x="126" y="108" width="22" height="52" fill="#0b3d6e"/><rect x="158" y="90" width="22" height="70" fill="#0f9d58"/></g>
+<circle cx="240" cy="125" r="30" fill="none" stroke="#e1e7ef" stroke-width="12"/><circle cx="240" cy="125" r="30" fill="none" stroke="#0f9d58" stroke-width="12" stroke-dasharray="130 189" transform="rotate(-90 240 125)"/></g>
+<rect x="20" y="335" width="340" height="14" rx="7" fill="#0b3d6e"/>
+<g transform="translate(375 170)"><rect width="110" height="200" rx="18" fill="#0a2540"/><rect x="8" y="16" width="94" height="168" rx="10" fill="#fff"/><rect x="40" y="6" width="30" height="4" rx="2" fill="#3b5b7d"/>
+<text x="55" y="42" text-anchor="middle" font-family="Arial" font-size="10" fill="#5b6574">Bank Balance</text><text x="55" y="62" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#0b3d6e">₹3,45,200</text>
+<g fill="#e1e7ef"><rect x="18" y="78" width="74" height="18" rx="4"/><rect x="18" y="102" width="74" height="18" rx="4"/><rect x="18" y="126" width="74" height="18" rx="4"/></g>
+<g fill="#0f9d58"><circle cx="28" cy="87" r="4"/><circle cx="28" cy="111" r="4"/></g><circle cx="28" cy="135" r="4" fill="#f2a900"/>
+<rect x="18" y="152" width="74" height="22" rx="6" fill="#0f9d58"/><text x="55" y="167" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" fill="#fff">Invoice Sent ✓</text></g>
+</svg>
