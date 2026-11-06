@@ -1,3 +1,8 @@
+(function(){var p=document.querySelector('.cpick');if(!p)return;var b=p.querySelector('.cpick-btn');
+function set(o){p.classList.toggle('on',o);b.setAttribute('aria-expanded',o);if(o)document.documentElement.style.setProperty('--ph',(b.getBoundingClientRect().bottom+10)+'px')}
+b.addEventListener('click',function(e){e.stopPropagation();var m=document.querySelector('.menu');if(m&&m.classList.contains('on'))document.querySelector('.burger').click();set(!p.classList.contains('on'))});
+document.addEventListener('click',function(e){if(!p.contains(e.target))set(false)});addEventListener('keydown',function(e){if(e.key==='Escape')set(false)});})();
+
 (function(){var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
 var els=document.querySelectorAll('section .card, section .rev, .stats>div, .content>div, .content>aside, .chips, section h2, .map');
 els.forEach(function(e){e.classList.add('reveal')});
