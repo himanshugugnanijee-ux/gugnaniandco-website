@@ -5,7 +5,7 @@ shutil.rmtree(OUT, ignore_errors=True)
 for d in ["", "services", "areas", "blog", "assets"]:
     os.makedirs(os.path.join(OUT, d), exist_ok=True)
 
-SITE = "https://www.gugnaniandco.com"
+SITE = "https://gugnaniandco.com"
 FIRM = "Gugnani & Co"
 PHONE = "+91-9953788989"
 TEL = "+919953788989"
