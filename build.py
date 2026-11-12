@@ -6,6 +6,9 @@ for d in ["", "services", "areas", "blog", "assets"]:
     os.makedirs(os.path.join(OUT, d), exist_ok=True)
 
 SITE = "https://gugnaniandco.com"
+GTM_ID = "GTM-WFWH8J7L"
+GTM_HEAD = "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','" + GTM_ID + "');</script>"
+GTM_BODY = '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=' + GTM_ID + '" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>'
 FIRM = "Gugnani & Co"
 PHONE = "+91-9953788989"
 TEL = "+919953788989"
@@ -404,7 +407,7 @@ def page(path, title, desc, body, depth, extra_schema=None, crumbs=None, cc=None
 <title>{title}</title><meta name="description" content="{desc}"><link rel="canonical" href="{url}">
 <meta name="robots" content="index,follow"><meta name="geo.region" content="IN-DL"><meta name="geo.placename" content="Rohini, Delhi"><meta name="geo.position" content="28.7186;77.1287"><meta name="ICBM" content="28.7186, 77.1287">
 <meta property="og:type" content="website"><meta property="og:title" content="{title}"><meta property="og:description" content="{desc}"><meta property="og:url" content="{url}"><meta property="og:site_name" content="Gugnani &amp; Co"><meta property="og:locale" content="en_IN">
-<link rel="icon" href="{r}favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="{r}assets/fav/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="{r}assets/fav/favicon-16.png"><link rel="apple-touch-icon" sizes="180x180" href="{r}assets/fav/apple-touch-icon.png"><link rel="manifest" href="{r}assets/fav/site.webmanifest"><meta name="theme-color" content="#0b3d6e"><meta property="og:image" content="{SITE}/assets/ca-logo-square-512.png"><link rel="stylesheet" href="{r}assets/style.css?v=15">{sj}</head><body>
+<link rel="icon" href="{r}favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="{r}assets/fav/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="{r}assets/fav/favicon-16.png"><link rel="apple-touch-icon" sizes="180x180" href="{r}assets/fav/apple-touch-icon.png"><link rel="manifest" href="{r}assets/fav/site.webmanifest"><meta name="theme-color" content="#0b3d6e"><meta property="og:image" content="{SITE}/assets/ca-logo-square-512.png"><link rel="stylesheet" href="{r}assets/style.css?v=15">{sj}{GTM_HEAD}</head><body>{GTM_BODY}
 <div class="top"><div class="wrap"><span>📍 Sector 9, Rohini, Delhi 110085</span><span>📞 <a href="tel:{TEL}">{PHONE}</a> · ✉ <a href="mailto:{EMAIL}">{EMAIL}</a></span></div></div>
 <header><div class="nav wrap"><a class="logo" href="{r}index.html"><img src="{r}assets/ca-logo-200.png" alt="CA India logo – Gugnani &amp; Co Chartered Accountants" width="70" height="54" style="height:54px;width:auto"><span>Gugnani &amp; Co<small>CHARTERED ACCOUNTANTS</small></span></a>
 {cpick}<button class="burger" aria-label="Open menu" aria-expanded="false">☰</button><ul class="menu"><li><a href="{r}index.html">Home</a></li><li><a href="{r}about.html">About</a></li><li class="dd"><a href="{svc_all}" aria-expanded="false">Services <span class="chev">▾</span></a><ul class="ddm">{dd_links}<li class="all"><a href="{svc_all}">View all services →</a></li></ul></li><li><a href="{r}areas/index.html">Areas</a></li><li><a href="{r}blog/index.html">Blog</a></li><li><a href="{r}contact.html">Contact</a></li><li><a class="btn" href="tel:{TEL}">Call Now</a></li></ul></div></header>
