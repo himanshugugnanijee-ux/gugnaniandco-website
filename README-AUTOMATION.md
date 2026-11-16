@@ -6,3 +6,4 @@
 
 ## Facebook post images
 `node fbposts/post_image.js spec.json out.png` renders a 1080x1080 branded image with the CA India logo (needs the pre-installed playwright). See the header of that file for the spec format.
+There are 6 designs (spec field `design`: 1-6). Leave `design` out and it is picked from the date in the output file name, so the look changes every day; never repeat the previous day's design.
